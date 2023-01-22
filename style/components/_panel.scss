@@ -1,0 +1,62 @@
+@import "../reset/color";
+
+form {
+    margin: 2rem;
+    padding: 1rem;
+    background-color: $secondary;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    div {
+        margin: 0.5rem;
+
+        input[type=number]::-webkit-inner-spin-button,
+            input[type=number]::-webkit-outer-spin-button {
+                -webkit-appearance: none;
+                margin: 0;
+            }
+
+        input {
+            height: calc(3.5rem + 2px);
+            padding: 0.375rem 2.25rem 0.375rem 0.75rem;
+            height: 3.5rem;
+            border-radius: 0.375rem;
+            border: 1px solid #ced4da;
+        }
+
+        button{
+            color: $secondary;
+            background-color: $terciary;
+            padding:0.5rem ;
+            border-radius: 0.375rem; 
+        }
+    }
+
+    .form-select {
+        width: 15rem;
+    }
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    margin: 1rem;
+}
+
+#editar{
+    background-color: $primary;
+    border: none;
+    padding: 0.5rem;
+    width: auto;
+}
+
+
+#borrar{
+    background-color: $primary;
+    border: none;
+    padding: 0.5rem;
+    width: auto;
+}
