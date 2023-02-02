@@ -1,0 +1,35 @@
+@import "../reset/color";
+#dark-mode{
+    width: auto;
+    height: auto;
+    background-color: $secondary;
+    border-radius: 50%;
+    border: none;
+    img{
+        width: 1.5rem;
+    }
+}
+
+nav{
+    background-color: $secondary;
+    padding: 0.5rem;
+    display: flex;
+    align-items: baseline;
+
+    
+    div {
+        a{
+            align-items: flex-end;
+        }
+        margin: 1rem;
+        display: flex;
+        gap: 1rem;
+        a:hover {
+            color: $terciary;
+        }
+        p {
+            font-family: 'Dela Gothic One', cursive;
+        }
+    }
+}
+
